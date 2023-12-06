@@ -9,7 +9,8 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #333; /* Dark grey background */
+            color: #f5f5f5; /* Light colored text */
             text-align: center;
         }
 
@@ -19,74 +20,34 @@
             overflow: hidden;
         }
 
-        header {
-            background: #50b3a2;
-            color: white;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #e8491d 3px solid;
+        .intro {
+            margin: 20px;
+            padding: 20px;
         }
 
-        header a {
-            color: #ffffff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
+        .intro img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
         }
 
-        header ul {
-            padding: 0;
-            list-style: none;
+        .intro-text {
+            margin-top: 20px;
         }
 
-        header li {
-            display: inline;
-            margin: 0 20px;
-        }
-
-        header #branding {
-            float: left;
-        }
-
-        header #branding h1 {
-            margin: 0;
-        }
-
-        header nav {
-            float: right;
-            margin-top: 10px;
-        }
-
-        header .highlight, header .current a {
-            color: #e8491d;
-            font-weight: bold;
-        }
-
-        header a:hover {
-            color: #ffffff;
-            font-weight: bold;
-        }
     </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1><span class="highlight">Your</span> Website Name</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li class="current"><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-
     <div class="container">
-        <h1>Welcome to My Website</h1>
-        <p>This is a paragraph of text to introduce visitors to your website. Feel free to replace this with your own content.</p>
+        <div class="intro">
+            <!-- Replace 'your-image.jpg' with your actual image file -->
+            <img src="your-image.jpg" alt="Your Image">
+            <div class="intro-text">
+                <!-- Replace this paragraph with your introduction -->
+                <p>Hello, I'm [Your Name]. Welcome to my website!</p>
+                <p>This is a brief introduction about myself. You can replace this text with your own content.</p>
+            </div>
+        </div>
     </div>
 </body>
 </html>
