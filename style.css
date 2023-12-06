@@ -59,7 +59,7 @@ h2 {
 .about-content {
         display: flex;
         align-items: center;
-        margin-left: 10%;
+        margin-left: 5%;
         gap: 50px; /* Adjusts the space between the image and the text */
     }
     
