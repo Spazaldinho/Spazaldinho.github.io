@@ -62,8 +62,8 @@ h2 {
 }
 
 .headshot {
-    width: 150px; /* Adjusts the width of the image */
-    height: 200px; /* Adjusts the height of the image */
+    width: 100px; /* Adjusts the width of the image */
+    height: 135px; /* Adjusts the height of the image */
     border-radius: 15px; /* Gives wide rounded edges */
     object-fit: cover; /* Ensures the image covers the defined area without distortion */
 }
