@@ -57,21 +57,22 @@ h2 {
 
 /* About section */
 .about-content {
-    display: flex;
-    align-items: center;
-    gap: 20px; /* Adjusts the space between the image and the text */
-}
-
-.headshot {
-    width: 75px; /* Adjusts the width of the image */
-    height: 135px; /* Adjusts the height of the image */
-    border-radius: 15px; /* Gives wide rounded edges */
-    object-fit: cover; /* Ensures the image covers the defined area without distortion */
-}
+        display: flex;
+        align-items: center;
+        margin-left: 10%;
+        gap: 50px; /* Adjusts the space between the image and the text */
+    }
+    
+    .headshot {
+        width: 300px; /* Adjusts the width of the image */
+        height: 400px; /* Adjusts the height of the image */
+        border-radius: 15px; /* Gives wide rounded edges */
+        object-fit: cover; /* Ensures the image covers the defined area without distortion */
+    }
 
 .about-content p {
     flex: 1 1 50%;
-    max-width: 30%;
+    max-width: 50%;
 }
 
 /* Media queries for smaller screens */
