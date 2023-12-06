@@ -58,37 +58,31 @@ h2 {
 /* About section */
 .about-content {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    gap: 1rem;
+    gap: 20px; /* Adjusts the space between the image and the text */
 }
 
 .headshot {
-    flex: 1 1 50%;
-    max-width: 400px;
-    aspect-ratio: 1 / 1;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 150px; /* Adjusts the width of the image */
+    height: 200px; /* Adjusts the height of the image */
+    border-radius: 15px; /* Gives wide rounded edges */
+    object-fit: cover; /* Ensures the image covers the defined area without distortion */
 }
 
 .about-content p {
     flex: 1 1 50%;
-    max-width: 50%;
+    max-width: 30%;
 }
 
 /* Media queries for smaller screens */
 @media screen and (max-width: 768px) {
-    .about-content {
-        display: flex;
-        align-items: center;
-        gap: 20px; /* Adjusts the space between the image and the text */
-    }
-    
     .headshot {
-        width: 150px; /* Adjusts the width of the image */
-        height: 200px; /* Adjusts the height of the image */
-        border-radius: 15px; /* Gives wide rounded edges */
-        object-fit: cover; /* Ensures the image covers the defined area without distortion */
+        flex: 1 1 100%;
+        max-width: 100%;
     }
-    
+
+    .about-content p {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
 }
