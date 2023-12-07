@@ -77,13 +77,14 @@ h2 {
 
 /* Media queries for smaller screens */
 @media screen and (max-width: 768px) {
-    .headshot {
-        flex: 1 1 100%;
-        max-width: 100%;
+    .about-content {
+        flex-direction: column; /* Stack items vertically on narrow screens */
+        align-items: center; /* Center-align the items for better presentation */
     }
 
-    .about-content p {
-        flex: 1 1 100%;
-        max-width: 100%;
+    .headshot, .about-content p {
+        width: 100%; /* Make image and text take full width */
+        max-width: 100%; /* Ensure they don't exceed container width */
+        margin-bottom: 1rem; /* Add some space below each item */
     }
 }
