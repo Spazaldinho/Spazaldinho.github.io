@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zain's Reports</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="dtms.html">Design Teams</a>
+            <a href="projects.html">Projects</a>
+            <a href="experience.html">Experience</a>
+            <a href="reports.html">Reports</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="reports fade-in">
+            <h1>Reports</h1>
+
+            <article class="report">
+                <h2>QMind</h2>
+                <ul>
+                    <li><a href="QMIND/Qmind_Project_Proposal_Draft.pdf" target="_blank">Smart Glasses for Prosopagnosia</a>
+                        <p>This project proposes the development of smart glasses equipped with facial recognition technology to assist individuals with prosopagnosia, or face blindness, which affects about 1-2% of the population. The glasses aim to provide real-time, discreet identification of known individuals, enhancing social interactions and emotional well-being. The proposal outlines the problem, related works, technical requirements, and architecture of the solution. The smart glasses will feature dual cameras, facial recognition software, wired connections for high-speed processing, and auditory alerts for recognized individuals. Future enhancements include wireless image transmission, extended battery life, and database management for updating new faces.</p>
+                    </li>
+                    <li><a href="QMIND/From_Recurrent_Neural_Networks_to_Transformers__Comparing_AI_Models_for_Image_Captioning.pdf" target="_blank">From Recurrent Neural Networks to Transformers: Comparing AI Models for Image Captioning</a>
+                        <p>This paper provides a comprehensive comparison of Recurrent Neural Networks (RNNs), Gated Recurrent Unit (GRU) networks, Long Short-Term Memory (LSTM) networks, and Transformer models in the context of image captioning using the Flickr8k dataset. The study evaluates the performance of these architectures based on cross-entropy loss and BLEU scores, examining their learning efficiency, susceptibility to overfitting, and overall caption quality. The results indicate that simpler models, such as RNNs, outperform more complex ones like GRUs, LSTMs, and Transformers on smaller datasets, highlighting the importance of task-specific model selection. The paper concludes that while Transformers show promise in scalability, RNNs are more effective for limited data scenarios.</p>
+                    </li>
+                </ul>
+            </article>
+
+            <article class="report">
+                <h2>CISC 271: Elements of Linear Algebra for Data Analysis</h2>
+                <p>In CISC 271, students explore various elements of linear algebra applied to data analysis. The course covers topics such as solving linear equations, vector spaces, matrix decompositions, principal components analysis (PCA), linear regression, and classification techniques. Through a combination of theoretical knowledge and practical assignments, students learn how to apply these methods to real-world data analysis problems.</p>
+                <ul>
+                    <li><a href="reports/a5_10219553.pdf" target="_blank">Perceptron Rule, Logistic Regression, Kernel PCA: Methods for Classification</a>
+                        <p>This report evaluates the effectiveness of the Perceptron Rule compared to Logistic Regression for determining whether a US college is public or private, and investigates the effectiveness of Kernel PCA combined with K-means clustering on Fisher’s Iris dataset. The results show that Logistic Regression is more accurate than the Perceptron Rule, achieving a higher AUC and accuracy. Additionally, Kernel PCA with K-means clustering achieved a perfect score on the Iris dataset. The report concludes that Logistic Regression and Kernel PCA are effective for their respective use-cases, with accuracies exceeding 90%, while the Perceptron Rule falls short.</p>
+                    </li>
+                    <li><a href="reports/a4_10219553.pdf" target="_blank">Effectiveness of LDA for Diabetes and Obesity Classification</a>
+                        <p>This report examines the use of Linear Discriminant Analysis (LDA) for classifying data related to diabetes and obesity, using Receiver Operating Characteristic (ROC) curves and Area Under the Curve (AUC) as evaluation metrics. The data is first reduced to 2D using Principal Component Analysis (PCA), followed by LDA to find the axes and scores for classification. The study finds that LDA is highly effective for diabetes classification, achieving an AUC of 0.9309, while it is moderately effective for obesity classification, with an AUC of 0.6071, indicating that LDA outperforms PCA alone in both cases.</p>
+                    </li>
+                    <li><a href="reports/a3_10219553.pdf" target="_blank">Study of Italian Grape Types through Principal Component Analysis</a>
+                        <p>This report evaluates the effectiveness of Principal Component Analysis (PCA) for dimensionality reduction of a dataset on Italian grape types, using the Davies-Bouldin (DB) index as a metric. By performing Singular Value Decomposition (SVD) on a zero-mean data matrix, the study reduces the dataset from 13 dimensions to 2 dimensions. The results show that PCA can effectively reduce dimensionality while maintaining cluster integrity, as evidenced by DB indices below 1.5. The report concludes that standardized zero-mean data improves clustering performance, and further refinement using Robust PCA could enhance results by mitigating noise and anomalies.</p>
+                    </li>
+                    <li><a href="reports/a2_10219553.pdf" target="_blank">Analysis of Fragility Index through Male Population Distributions</a>
+                        <p>This report investigates the use of linear regression across different age groups of male populations to predict a country's fragility index. The study found that linear regression is an effective method for this purpose, with RMSE values within ±10-20% of the actual fragility index range. The findings suggest underlying political or socioeconomic factors influencing these correlations, such as higher fragility in countries with larger young male populations and greater stability in countries with larger elderly male populations.</p>
+                    </li>
+                    <li><a href="reports/a1_10219553.pdf" target="_blank">Binary Vertex Clustering using the Fiedler Vector</a>
+                        <p>This report investigates the use of the Fiedler vector for binary clustering of graph vertices. The study involves creating adjacency, degree, and Laplacian matrices from a sample edge list, followed by calculating the Fiedler vector using eigenvalues and eigenvectors of the Laplacian matrix. The Fiedler vector is then used to partition the graph's vertices into two distinct clusters. The results show that this method effectively clusters the graph, with over 91% of all edges contained within one of the clusters, indicating that the Fiedler vector is a robust tool for binary clustering. The report concludes that extending the algorithm to include fuzzy clustering could yield even more insightful results.</p>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </main>
+
+    <footer class="fade-in">
+        <!-- Your footer content goes here -->
+    </footer>
+</body>
+</html>

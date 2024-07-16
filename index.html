@@ -6,6 +6,43 @@
     <title>Zain's Personal Website</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="animations.css">
+    <style>
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .about-content figure, .about-content p {
+            flex: 1;
+            min-width: 300px;
+            margin: 20px;
+        }
+
+        .headshot {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 1000px) {
+            .about-content {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .about-content figure, .about-content p {
+                width: 100%;
+                margin: 0;
+            }
+
+            .about-content p {
+                margin-top: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -14,6 +51,7 @@
             <a href="dtms.html">Design Teams</a>
             <a href="projects.html">Projects</a>
             <a href="experience.html">Experience</a>
+            <a href="reports.html">Reports</a>
         </nav>        
     </header>
     <main>
@@ -21,69 +59,21 @@
             <h1>About Me</h1>
             <div class="about-content">
                 <figure>
-                    <img src="Media\IMG_2620.jpg" alt="Zain headshot" class="headshot">
+                    <img src="Media/IMG_2620.jpg" alt="Zain headshot" class="headshot">
                     <figcaption>Huge Barca Fan! This is the 95-97 Away Kit.</figcaption>
                 </figure>
-                <p>👋 Hey there! I'm Zain, a student at Queen's University, where I'm currently exploring Computer Science, Statistics, and Mathematics. My passion lies at the intersection of AI, Machine Learning, and Human-Computer Interaction, where I am constantly working to push the boundaries of technology.
-            
-                <br><br> At Queen's, I've been able to work on a variety of projects and design teams, each enriching my understanding and application of tech. From developing algorithms for autonomous vehicles in Queen's AutoDrive, to exploring image-to-text caption generation with QMIND, my journey is about applying what I learn in the classroom to tangible, impactful projects.
-
-                <br><br>In the ever-evolving world of Artificial Intelligence, my interest extends beyond academia. I avidly follow current research and breakthroughs in AI and ML, with a keen eye on how these advancements shape our understanding of technology and its ethical implications. My goal is to be at the forefront of this change, contributing innovative ideas to enhance human-computer interaction and advocate for responsible AI development.
-
-                <br><br>Thanks for visiting my website. It’s a window into my professional and academic experiences and an insight into the projects that feed my enthusiasm for innovation and ethical tech development. Feel free to connect with me at zain.parihar@gmail.com!</p>
+                <p>👋 Hey there! I'm Zain, a third-year Computer Science student at Queen's University. I'm currently studying computing, with a focus on AI and Fundamental Computing, while also pursuing a minor in Math and Stats. My coursework is centered around Machine Learning, Computer Architecture, Networks, and Digital Systems.
+                    <br><br>
+                    I'm a recipient of the 2024 USSRF award at Queen's University, and I'm currently researching Federated Learning at the Smart Wireless Massive Systems Lab. I'm also a PM in the Computer Vision Node at QMind, where I'm leading a project to develop facial recognition glasses for prosopagnosics (face blindness).
+                    <br><br>
+                    Beyond my academic and research pursuits, I'm passionate about applying my knowledge to create impactful technological solutions. Whether it's through leading innovative projects, collaborating with diverse teams, or staying updated with the latest advancements in AI and computing, I'm driven by the potential of technology to make a difference. Thanks for visiting my website—feel free to connect with me.</p>
             </div>
-            
-        </section>
-
-        <section id="coursework" class="fade-in">
-            <h1>📚 Coursework</h1>
-        
-            <h2>💻 Computer Science:</h2>
-            <ul>
-                <li>Digital Logic - Logic gates and digital circuit design.</li>
-                <li>Neural Networks - Deep learning models and applications.</li>
-                <li>Decision Trees - Decision tree algorithms for classification and regression.</li>
-                <li>Data Visualization - Skills in visualizing data.</li>
-                <li>Decision Making & Reasoning in Computers - AI decision-making processes.</li>
-                <li>Cognitive Architectures - Analysis of cognitive models and architectures.</li>
-                <li>Data Structures & Algorithms - Fundamental algorithms and data structures.</li>
-                <li>Computer Architecture - Computer system architecture and design.</li>
-                <li>Instruction-Set Architectures - Instruction sets of computer processors.</li>
-                <li>Software Specifications - Software development specifications and requirements.</li>
-                <li>Propositional & Predicate Logic - Symbolic logic and formal reasoning.</li>
-                <li>Assembly - Low-level programming languages.</li>
-            </ul>
-        
-            <h2>🔢 Mathematics:</h2>
-            <ul>
-                <li>Linear Algebra - Vector spaces and linear transformations.</li>
-                <li>Calculus & Differential Equations - Calculus and ordinary differential equations.</li>
-                <li>Discrete Math - Combinatorics, graph theory, and discrete structures.</li>
-                <li>Combinatorics - Counting, permutations, and combinations.</li>
-                <li>Vector Calculus - Vector fields, line integrals, and calculus theorems.</li>
-            </ul>
-        
-            <h2>📊 Statistics:</h2>
-            <ul>
-                <li>Data Science with R - Data analysis using R, with practical projects.</li>
-                <li>Linear Data Analysis - Linear regression models applied to real-world data.</li>
-                <li>Statistical Inference - Principles of statistical hypothesis testing and estimation.</li>
-                <li>Probability - Probability theory and stochastic processes.</li>
-            </ul>
-        
-            <h2>🗣 Languages:</h2>
-            <ul>
-                <li>🇺🇸 English (Native)</li>
-                <li>🇫🇷 French (Proficient)</li>
-                <li>🇪🇸 Spanish (Basic)</li>
-            </ul>
-        </section>
-        
+        </section>        
 
         <section id="links" class="fade-in">
             <h1>Links</h1>
-            <p><a href="Resumes\Zain_Parihar_Resume_January__Public_.pdf" target="_blank">Click here to view my resume (PDF).</a></p>
-            <!-- <p><a href="Resumes\ZainParihar_CV_November_Public.pdf" target="_blank">Click here to view my CV (PDF).</a></p> -->
+            <p><a href="Resumes/ZainParihar_ResumeJuly_Public.pdf" target="_blank">Click here to view my resume (PDF).</a></p>
+            <!-- <p><a href="Resumes/ZainParihar_CV_November_Public.pdf" target="_blank">Click here to view my CV (PDF).</a></p> -->
         </section>
     </main>
 </body>
